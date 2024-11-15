@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImg from '../assets/Hero.jpg'
-import { AiOutlineLinkedin,AiOutlineFacebook } from "react-icons/ai";
+//import { AiOutlineLinkedin,AiOutlineFacebook } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 
 function Hero(){
@@ -11,11 +11,8 @@ function Hero(){
             Im a Full-Stack developer
           </p>
         </h1>
-         <div className="flex py-5 ">
-             <a href="#" className="pr-5">< AiOutlineLinkedin size={40}/></a>
-             <a href="#" className="pr-5"> <FaTwitter size={40}/></a>
-             <a href="#"> < AiOutlineFacebook size={40}/></a>
-         </div>
+      
+        
         </div>
         <img className="md:w-1/3" src={HeroImg} />
     </section>
